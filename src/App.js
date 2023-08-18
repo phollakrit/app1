@@ -7,8 +7,6 @@ function App() {
       <Header/>
       <Content/>
       <Footer/>
-      <div>React & React Native</div>
-      <div>Test</div>
     </>
   )
 }
