@@ -1,13 +1,9 @@
 import React from 'react'
-import { Content, Footer, Header } from './func-components';
+import { Calculator2 } from './calculator';
 
 function App() {
   return (
-    <>
-      <Header/>
-      <Content/>
-      <Footer/>
-    </>
+    <Calculator2/>
   )
 }
 
