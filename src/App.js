@@ -1,9 +1,12 @@
 import React from 'react'
-import MessageBox from './state-func';
+import { userContext } from './context';
+import Header from './context-header';
 
 function App() {
   return (
-    <MessageBox/>
+    <userContext.Provider value={'Tom Jerry'}>
+      <Header/>
+    </userContext.Provider>
   )
 }
 
